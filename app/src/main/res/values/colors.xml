@@ -3,4 +3,10 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="toolBg">#2EA9DF</color>
+    <color name="black">#000000</color><!--黑色 -->
+    <color name="white">#ffffff</color>
+    <color name="grey">#808080</color><!--灰色 -->
+    <color name="red">#ff0000</color><!--红色 -->
+    <color name="circleLine">#C7C7C7</color>
 </resources>

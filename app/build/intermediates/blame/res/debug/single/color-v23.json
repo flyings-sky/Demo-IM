@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "E:\\MyApp\\Demo-IM\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
+        "source": "E:\\android-build-cache\\3a0b6344dcd4f60d214e87a63da98f50d94d1c0c\\output\\res\\color-v23\\abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "E:\\MyApp\\Demo-IM\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_default.xml",
+        "source": "E:\\android-build-cache\\3a0b6344dcd4f60d214e87a63da98f50d94d1c0c\\output\\res\\color-v23\\abc_tint_default.xml"
+    },
+    {
+        "merged": "E:\\MyApp\\Demo-IM\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_btn_checkable.xml",
+        "source": "E:\\android-build-cache\\3a0b6344dcd4f60d214e87a63da98f50d94d1c0c\\output\\res\\color-v23\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "E:\\MyApp\\Demo-IM\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_seek_thumb.xml",
+        "source": "E:\\android-build-cache\\3a0b6344dcd4f60d214e87a63da98f50d94d1c0c\\output\\res\\color-v23\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "E:\\MyApp\\Demo-IM\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_edittext.xml",
+        "source": "E:\\android-build-cache\\3a0b6344dcd4f60d214e87a63da98f50d94d1c0c\\output\\res\\color-v23\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "E:\\MyApp\\Demo-IM\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_thumb.xml",
+        "source": "E:\\android-build-cache\\3a0b6344dcd4f60d214e87a63da98f50d94d1c0c\\output\\res\\color-v23\\abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "E:\\MyApp\\Demo-IM\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_spinner.xml",
+        "source": "E:\\android-build-cache\\3a0b6344dcd4f60d214e87a63da98f50d94d1c0c\\output\\res\\color-v23\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "E:\\MyApp\\Demo-IM\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_track.xml",
+        "source": "E:\\android-build-cache\\3a0b6344dcd4f60d214e87a63da98f50d94d1c0c\\output\\res\\color-v23\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "E:\\MyApp\\Demo-IM\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_borderless_text_material.xml",
+        "source": "E:\\android-build-cache\\3a0b6344dcd4f60d214e87a63da98f50d94d1c0c\\output\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
+    }
+]

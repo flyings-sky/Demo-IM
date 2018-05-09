@@ -1,16 +1,10 @@
 package andfans.com.demo_im
 
 import android.app.Application
-import android.util.Log
-
 import com.avos.avoscloud.AVAnalytics
-import com.avos.avoscloud.AVException
-import com.avos.avoscloud.AVInstallation
 import com.avos.avoscloud.AVOSCloud
-import com.avos.avoscloud.SaveCallback
-
 /**
-
+ *
  * Created by 兆鹏 on 2017/5/10.
  */
 
@@ -22,23 +16,23 @@ class DemoIM : Application() {
         AVAnalytics.enableCrashReport(this.applicationContext, true)
         //开启调试日志
         AVOSCloud.setDebugLogEnabled(true)
-        //保存本机的Installation
-        AVInstallation.getCurrentInstallation().saveInBackground(object : SaveCallback() {
-            override fun done(e: AVException?) {
-                if (e == null) {
-                    installationId = AVInstallation.getCurrentInstallation().installationId
-                } else {
-                    Log.e("Click", e.message)
-                }
-            }
-        })
+//        //保存本机的Installation
+//        AVInstallation.getCurrentInstallation().saveInBackground(object : SaveCallback() {
+//            override fun done(e: AVException?) {
+//                if (e == null) {
+//                    installationId = AVInstallation.getCurrentInstallation().installationId
+//                } else {
+//                    Log.e("Click", e.message)
+//                }
+//            }
+//        })
 
         // 设置默认打开的 Activity
         //PushService.setDefaultPushCallback(mContext, FriendsDetailsActivity.class);
         //PushService.subscribe(this,"NewFriend",NewFriendActivity.class);
     }
 
-    companion object {
-        var installationId: String = ""
-    }
+//    companion object {
+//        var installationId: String = ""
+//    }
 }

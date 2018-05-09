@@ -1,12 +1,10 @@
 apply plugin: 'com.android.application'
-apply plugin: 'android-apt'
 apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
 
 android {
     compileSdkVersion 24
     buildToolsVersion "25.0.2"
-    aaptOptions.cruncherEnabled = false
-    aaptOptions.useNewCruncher = false
     defaultConfig {
         applicationId "andfans.com.demo_im"
         minSdkVersion 16
@@ -47,17 +45,20 @@ dependencies {
     // LeanCloud 统计包
     //圆形的ImageView
     //Butternife
-    
 
+    compile "io.reactivex.rxjava2:rxjava:2.1.0"
+    compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
     compile 'com.github.bumptech.glide:glide:3.7.0'
     compile 'com.allenliu.badgeview:library:1.1.0'
     compile 'cn.leancloud.android:avoscloud-sdk:v3.16.4'
     compile 'cn.leancloud.android:avoscloud-statistics:v3.+'
     compile 'de.hdodenhof:circleimageview:2.1.0'
-    compile 'com.jakewharton:butterknife:8.4.0'
     compile 'org.jetbrains.kotlin:kotlin-stdlib:1.1.2-3'
+    compile 'org.jetbrains.anko:anko-sdk21:0.8.3' // sdk19, sdk21, sdk23 are also available
+    compile 'org.jetbrains.anko:anko-support-v4:0.8.3' // In case you need support-v4 bindings
+    compile 'org.jetbrains.anko:anko-appcompat-v7:0.8.3' // For appcompat-v7 bindings
     compile 'com.android.support:appcompat-v7:24.2.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
-    apt 'com.jakewharton:butterknife-compiler:8.4.0'
+
 }
